@@ -7,13 +7,21 @@ settings:
 dependencies:
   '@slidev/cli':
     specifier: ^0.43.7
-    version: 0.43.7(@types/markdown-it@13.0.4)(postcss@8.4.31)
+    version: 0.43.7(@types/markdown-it@13.0.4)(playwright-chromium@1.39.0)(postcss@8.4.31)
+  '@slidev/theme-apple-basic':
+    specifier: ^0.20.0
+    version: 0.20.0
   '@slidev/theme-default':
     specifier: latest
     version: 0.21.2
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.21.3
+
+devDependencies:
+  playwright-chromium:
+    specifier: ^1.39.0
+    version: 1.39.0
 
 packages:
 
@@ -748,7 +756,7 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /@slidev/cli@0.43.7(@types/markdown-it@13.0.4)(postcss@8.4.31):
+  /@slidev/cli@0.43.7(@types/markdown-it@13.0.4)(playwright-chromium@1.39.0)(postcss@8.4.31):
     resolution: {integrity: sha512-6JVo/KZUkl2sw5S2QpvD2eKgyfJzvQwUED4FhlBc5LHT4EPXKzRwHQ7fqI31tDp97KlmsKniosCYD9TMYnjrRQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -797,6 +805,7 @@ packages:
       open: 8.4.2
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
+      playwright-chromium: 1.39.0
       postcss-nested: 6.0.1(postcss@8.4.31)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -888,6 +897,16 @@ packages:
     dependencies:
       '@slidev/types': 0.43.7
       js-yaml: 4.1.0
+    dev: false
+
+  /@slidev/theme-apple-basic@0.20.0:
+    resolution: {integrity: sha512-sjgxAyn63TNHsiwT/Iz2D8IjpuOg/x8l+nG2TTH3zg8XChIo7uYcNNApWH+i5zuBfaNHHUOaGLPaZw5s6fINQg==}
+    engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
+    dependencies:
+      '@slidev/types': 0.22.7
+      codemirror-theme-vars: 0.1.2
+      prism-theme-vars: 0.2.4
+      theme-vitesse: 0.1.14
     dev: false
 
   /@slidev/theme-default@0.21.2:
@@ -3779,6 +3798,19 @@ packages:
   /plantuml-encoder@1.4.0:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: false
+
+  /playwright-chromium@1.39.0:
+    resolution: {integrity: sha512-0WVmvn9ppPbcyb2PQherIpzsvJlyjqziCZiAiexTEYSz8k6/+/3wljmFaMRMP1lcv2xKyHDn9yWd/lHb7IzYyA==}
+    engines: {node: '>=16'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.39.0
+
+  /playwright-core@1.39.0:
+    resolution: {integrity: sha512-+k4pdZgs1qiM+OUkSjx96YiKsXsmb59evFoqv8SKO067qBA+Z2s/dCzJij/ZhdQcs2zlTAgRKfeiiLm8PQ2qvw==}
+    engines: {node: '>=16'}
+    hasBin: true
 
   /popmotion@11.0.5:
     resolution: {integrity: sha512-la8gPM1WYeFznb/JqF4GiTkRRPZsfaj2+kCxqQgr2MJylMmIKUwBfWW8Wa5fml/8gmtlD5yI01MP1QCZPWmppA==}

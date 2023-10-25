@@ -10,7 +10,7 @@
         </p>
       </div>
     </div>
-    <span class="font-medium font-semibold bg-[#30a5bf] text-left text-white text-shadow opacity-90 py-1 px-3 bottom-42 left-78 text-[20px] absolute block">BY WINNIE WU</span>
+    <span class="font-medium font-semibold bg-[#30a5bf] text-left text-white text-shadow opacity-90 py-1 px-3 bottom-42 left-78 text-[20px] absolute block">WINNIE WU</span>
     <div class="mx-auto bg-[#30a5bf] h-4 right-0 bottom-0 left-0 absolute"></div>
   </div>
   

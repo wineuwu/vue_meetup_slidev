@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 10px;
+  height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 ;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p{
+  font-size: 18px;
+  color: #696969
+}
