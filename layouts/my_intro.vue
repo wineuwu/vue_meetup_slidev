@@ -5,7 +5,7 @@
       <div >
         <p class=" font-extrabold text-left     text-50px text-[#30a5bf] relative">
         <div class="mb-15 relative">
-          <slot name="title"/> 
+          <slot/> 
         </div> 
         </p>
       </div>
