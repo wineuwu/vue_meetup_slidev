@@ -287,7 +287,7 @@ class: text-slidev p-10 space-y-10
 layout: content
 ---
 
-### HeightLight
+### Highlighting
 
 突顯某部分重要程式碼片段時，可使用 Markdown 中的三個反引號（```）來指定程式碼區塊，同時在後面指定程式碼的語言。
 
@@ -544,11 +544,10 @@ class: text-slidev  text-center text-35px font-semibold
     HMR <br>即時更新
   </div>
     <div class="font-bold m-auto h-20 left-  text-center text-slidev top-0 right-0 bottom-0 left-0 text-26px  w-55 absolute ">
-     程式碼 <br>HightLight
+     程式碼 <br>Highlighting
     </div>
     <div class="font-bold h-20  text-center text-slidev   top-60  right-40 bottom-0  text-26px  w-60   absolute">主題樣式<br>彈性客製化
     </div>
-
 </div>
 
 
